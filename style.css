@@ -1,0 +1,100 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        width: 100%;
+        height: 7000px;
+    }
+    
+    .nav-bar {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .nav-bar-item {
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .nav-bar-item a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .content {
+        width: 100%;
+        height: 7000px;
+        background-color: grey;
+        padding-top: 50px;
+    }
+    
+    .video-list {
+        width: 100%;
+        height: 7000px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    
+    .video-container-card {
+        width: 270px;
+        background-color: rgba(24, 16, 16, 0.555);
+        height: 450px;
+    }
+    
+    .video-image {
+        width: 100%;
+        height: 310px;
+        background-image: url("https://dummyimage.com/250x300.png/ff4444/ffffff");
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .video-type {
+        width: 100px;
+        height: 10x;
+        margin-top: 10px;
+        background-color: red;
+        text-align: center;
+    }
+    
+    .nameVN-video {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        color: aqua;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .nameEN-video {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .duration-video {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+    }
